@@ -6,7 +6,7 @@ env.reset()
 done = False
 
 while not done:
-    action = 2
+    action = 1
     new_state, reward, done, truncated, info = env.step(action)
     done = done or truncated
     env.render()
