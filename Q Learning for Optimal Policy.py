@@ -68,5 +68,5 @@ print(Q)
 
 # The optimal policy can be extracted by choosing actions with the highest Q-value for each state
 optimal_policy = np.argmax(Q, axis=1)
-print("Optimal Policy (best action for each state):")
-print(optimal_policy)
+print(f"Optimal Policy (best action for each state): {optimal_policy}")
+
