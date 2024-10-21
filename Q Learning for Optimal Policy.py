@@ -63,8 +63,7 @@ for episode in range(num_episodes):
             done = True
 
 # After training, the Q-table should contain the learned Q-values
-print("Learned Q-Table:")
-print(Q)
+print(f"Learned Q-Table: \n {Q}")
 
 # The optimal policy can be extracted by choosing actions with the highest Q-value for each state
 optimal_policy = np.argmax(Q, axis=1)
