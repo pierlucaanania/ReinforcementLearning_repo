@@ -5,7 +5,7 @@ import random
 alpha = 0.1  # Learning rate
 gamma = 0.95  # Discount factor
 epsilon = 0.1  # Exploration rate (for epsilon-greedy)
-num_episodes = 1000  # Number of episodes
+num_episodes = 1001  # Number of episodes
 
 # Example environment
 # Assume we have an environment with 5 states and 2 possible actions
