@@ -4,7 +4,7 @@ import random
 # Q-learning parameters
 alpha = 0.1  # Learning rate
 gamma = 0.95  # Discount factor
-epsilon = 0.1  # Exploration rate (for epsilon-greedy)
+epsilon = 0.11  # Exploration rate (for epsilon-greedy)
 num_episodes = 1001  # Number of episodes
 
 # Example environment
