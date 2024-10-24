@@ -2,7 +2,7 @@ import numpy as np
 import random
 
 # Q-learning parameters
-alpha = 0.1  # Learning rate
+alpha = 0.12  # Learning rate
 gamma = 0.925  # Discount factor
 epsilon = 0.11  # Exploration rate (for epsilon-greedy)
 num_episodes = 1001  # Number of episodes
